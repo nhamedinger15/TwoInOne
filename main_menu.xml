@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background_main">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:background="@drawable/wwm_color"
+        android:textColor="#ffffff"
+        android:onClick="startPressed"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Highscores"
+        android:background="@drawable/wwm_color"
+        android:textColor="#ffffff"
+        android:onClick="highPressed"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beenden"
+        android:background="@drawable/wwm_color"
+        android:textColor="#ffffff"
+        android:onClick="endPressed"/>
+
+</LinearLayout>
